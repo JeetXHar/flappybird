@@ -75,8 +75,8 @@ def game():
     pipes=[
         pipe[0].get_rect(midbottom=(width+36,temp1)),
         pipe[0].get_rect(midtop=(width+36,temp1+200)),
-        pipe[0].get_rect(midbottom=(width+36+width*2//3,temp2)),
-        pipe[0].get_rect(midtop=(width+36+width*2//3,temp2+200))
+        pipe[0].get_rect(midbottom=(36+width*5//3,temp2)),
+        pipe[0].get_rect(midtop=(36+width*5//3,temp2+200))
     ]
     
     while True:
